@@ -46,13 +46,13 @@ class Jardin(object):
    if numplantas >= 100:
     print("No caben más plantas en el jardín")
    else:
-    Planta =[]
+    p =[]
     lp =Planta(n,esp)
     lp = settemporada(tiempo)
     for i in 100:
      if p[i] == lp:
       break
-     numplantas += 1
+    numplantas += 1
 
    def Arrancar(self,nombre = "", esp = ""):
     if numplantas == 0:
@@ -61,5 +61,3 @@ class Jardin(object):
      for i in 100:
       if nombre == p[i].getnombre() and esp == p[i].getespecie():
 #INICIO
-c=Jardin()
-c.jardin()
